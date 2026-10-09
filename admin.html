@@ -1,0 +1,58 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم المشرف العام | نادي مَتن</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#fcf9f3] text-[#1c2421] font-['Cairo'] min-h-screen flex flex-col">
+    <header class="bg-white border-b border-[#e8dec8] p-4 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="font-['Amiri'] font-bold text-2xl text-[#234e3d]">نادي مَتن</a>
+                <span class="text-xs bg-[#c5a059]/20 text-[#173629] font-bold px-2 py-0.5 rounded">لوحة المشرف العام</span>
+            </div>
+            <a href="index.html" class="text-xs font-bold text-[#234e3d] hover:underline">العودة للبوابة الرئيسية ←</a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8 flex-1 w-full space-y-6">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold font-['Amiri'] text-[#234e3d]">لوحة القيادة وإدارة صالونات القراءة</h1>
+            <div class="flex gap-2">
+                <button onclick="alert('تم تفعيل نموذج إضافة شريك جديد')" class="bg-[#234e3d] text-white px-4 py-2 rounded-xl text-xs font-bold shadow">+ إضافة شريك</button>
+                <button onclick="alert('تم إنشاء قسيمة: MATN-2025-50')" class="bg-white border border-[#e8dec8] px-4 py-2 rounded-xl text-xs font-bold">توليد قسيمة شحن</button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white p-5 rounded-2xl border border-[#e8dec8] shadow-sm">
+                <div class="text-xs text-gray-500">إجمالي القراء</div>
+                <div class="text-3xl font-bold font-['Amiri'] text-[#234e3d] mt-2">4,850</div>
+                <div class="text-[11px] text-emerald-700 mt-1 font-semibold">↑ +14.2% هذا الشهر</div>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-[#e8dec8] shadow-sm">
+                <div class="text-xs text-gray-500">المشرفون والميسرون</div>
+                <div class="text-3xl font-bold font-['Amiri'] text-[#234e3d] mt-2">24</div>
+                <div class="text-[11px] text-gray-500 mt-1">عبر 7 فروع ومدن</div>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-[#e8dec8] shadow-sm">
+                <div class="text-xs text-gray-500">الصالونات المعتمدة</div>
+                <div class="text-3xl font-bold font-['Amiri'] text-[#234e3d] mt-2">38</div>
+                <div class="text-[11px] text-[#c5a059] font-semibold mt-1">نسبة الحضور 94%</div>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-[#e8dec8] shadow-sm">
+                <div class="text-xs text-gray-500">نقاط الولاء المصروفة</div>
+                <div class="text-3xl font-bold font-['Amiri'] text-[#234e3d] mt-2">5,420</div>
+                <div class="text-[11px] text-gray-500 mt-1">رصيد إدارة متاح للتحفيز</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+```
+
+---
