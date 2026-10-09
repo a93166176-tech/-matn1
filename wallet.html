@@ -1,0 +1,58 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محفظة الولاء ونقاط مَتن | نادي مَتن</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#fcf9f3] text-[#1c2421] font-['Cairo'] min-h-screen flex flex-col">
+    <header class="bg-white border-b border-[#e8dec8] p-4">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="font-['Amiri'] font-bold text-2xl text-[#234e3d]">نادي مَتن</a>
+            <div class="flex gap-4 text-xs font-bold">
+                <a href="index.html">الرئيسية</a>
+                <a href="booking.html">الصالونات</a>
+                <a href="partners.html">الشركاء</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8 flex-1 w-full space-y-6">
+        <div class="bg-gradient-to-r from-[#173629] to-[#234e3d] text-white p-8 rounded-3xl shadow-xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+            <div>
+                <span class="text-xs text-[#e8dec8] font-bold">رصيد الولاء الثقافي المتاح</span>
+                <div class="text-5xl font-bold font-['Amiri'] text-[#dfbe7e] mt-1">340 نقطة</div>
+                <p class="text-xs text-gray-200 mt-2">الرتبة: القارئ المتميز • المتن الراسخ (خصم 40% لدور النشر)</p>
+            </div>
+            <div class="flex flex-col gap-2 w-full sm:w-auto">
+                <a href="partners.html" class="bg-[#c5a059] hover:bg-[#dfbe7e] text-[#173629] text-center font-bold px-6 py-2.5 rounded-xl text-xs transition">استبدال النقاط بمزايا ←</a>
+                <button onclick="let code = prompt('أدخل رمز قسيمة الولاء:'); if(code) alert('تم شحن القسيمة بنجاح!');" class="bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-2 rounded-xl text-xs border border-white/20">شحن قسيمة هدية</button>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-[#e8dec8] shadow-sm space-y-4">
+            <h3 class="font-bold text-[#234e3d] font-['Amiri'] text-lg">كيف تجمع المزيد من نقاط مَتن؟</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <div class="p-4 bg-[#fcf9f3] rounded-xl border border-[#e8dec8]">
+                    <div class="font-bold text-[#234e3d] text-sm">+20 نقطة</div>
+                    <div class="text-gray-600 mt-1">حضور صالون نقاش كتاب والتفاعل الصوتي</div>
+                </div>
+                <div class="p-4 bg-[#fcf9f3] rounded-xl border border-[#e8dec8]">
+                    <div class="font-bold text-[#234e3d] text-sm">+2 نقطتان يومياً</div>
+                    <div class="text-gray-600 mt-1">تجاوز 10 دقائق قراءة للمقالات داخل المنصة</div>
+                </div>
+                <div class="p-4 bg-[#fcf9f3] rounded-xl border border-[#e8dec8]">
+                    <div class="font-bold text-[#234e3d] text-sm">+10 نقاط</div>
+                    <div class="text-gray-600 mt-1">كتابة مراجعة أو خاطرة فكرية ملهمة</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+```
+
+---
